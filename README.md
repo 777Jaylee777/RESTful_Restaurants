@@ -49,16 +49,20 @@ Request Body:
   "address": "string"
 }
 
-GET /restaurants/:id
+### GET /restaurants/:id
+
 Returns details of a specific restaurant with the given ID.
 
-PUT /restaurants/:id/star
+### PUT /restaurants/:id/star
+
 Stars a specific restaurant with the given ID.
 
-DELETE /restaurants/:id/star
+### DELETE /restaurants/:id/star
+
 Removes the star from a specific restaurant with the given ID.
 
-POST /restaurants/:id/comments
+### POST /restaurants/:id/comments
+
 Adds a comment to a specific restaurant with the given ID.
 
 Request Body:
@@ -66,10 +70,10 @@ Request Body:
   "text": "string"
 }
 
-GET /restaurants/:id/comments
+### GET /restaurants/:id/comments
 Returns all the comments for a specific restaurant with the given ID.
 
-Conclusion
+### Conclusion
 This API allows users to store and retrieve information about their favorite restaurants, including the ability to star and comment on specific restaurants. If you have any questions or issues, please feel free to contact me.
 
 
