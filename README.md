@@ -47,7 +47,7 @@ Request Body:
   "name": "string",
   "cuisine": "string",
   "address": "string"
-}
+}```
 
 ### GET /restaurants/:id
 
@@ -66,9 +66,9 @@ Removes the star from a specific restaurant with the given ID.
 Adds a comment to a specific restaurant with the given ID.
 
 Request Body:
-{
+```{
   "text": "string"
-}
+}```
 
 ### GET /restaurants/:id/comments
 Returns all the comments for a specific restaurant with the given ID.
